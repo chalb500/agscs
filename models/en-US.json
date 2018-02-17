@@ -1,0 +1,34 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "game status checker",
+      "intents": [
+        {
+          "name": "GameStatusCheckerIntent",
+          "slots": [
+            {
+              "name": "Gamer",
+              "type": "LIST_OF_GAMERS"
+            }
+          ],
+          "samples": [
+            "what overwatch level is {Gamer}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cronos86",
+                "synonyms": ["canos eighty six", "chronos eighty six", "kroner city six", "chronos 86"]
+              }
+            }
+          ],
+          "name": "LIST_OF_GAMERS"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Checks to see if a user is in a game",
+          "examplePhrases": [
+            "Alexa ask game status checker is X on line?"
+          ],
+          "name": "alexa-game-status-checker-skill",
+          "description": "Checks to see if a user is in a game"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "category": "GAME_INFO_AND_ACCESSORY",
+      "distributionMode": "PRIVATE",
+      "distributionCountries": [
+        "US"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "",
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
